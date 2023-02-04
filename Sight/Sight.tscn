@@ -6,7 +6,6 @@
 [sub_resource type="CircleShape2D" id=4]
 
 [node name="Sight" type="Area2D"]
-position = Vector2( 145, 460 )
 script = ExtResource( 1 )
 __meta__ = {
 "_edit_group_": true
