@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/TestImage.png-d2ec030482ea5c06f6490b618093bcf0.stex"
+path="res://.import/RootCauseTiles.png-783aa94098baa605e9fa5a63f6b9f094.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sight/TestImage.png"
-dest_files=[ "res://.import/TestImage.png-d2ec030482ea5c06f6490b618093bcf0.stex" ]
+source_file="res://World/RootCauseTiles.png"
+dest_files=[ "res://.import/RootCauseTiles.png-783aa94098baa605e9fa5a63f6b9f094.stex" ]
 
 [params]
 

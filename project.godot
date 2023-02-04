@@ -14,6 +14,16 @@ config/name="Root Cause"
 run/main_scene="res://World/World.tscn"
 config/icon="res://icon.png"
 
+[display]
+
+window/size/width=512
+window/size/height=300
+window/size/resizable=false
+
+[global]
+
+viewport=false
+
 [gui]
 
 common/drop_mouse_on_gui_input_disabled=true

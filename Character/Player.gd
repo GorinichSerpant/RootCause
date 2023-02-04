@@ -23,7 +23,7 @@ func _physics_process(delta):
 		velocity.y = -JUMP_SPEED
 		JUMPS_AVALIABLE -= 1
 	
-	move_and_slide(velocity, Vector2(0, -1))\
+	move_and_slide(velocity, Vector2(0, -1))
 	
 	if is_on_floor():
 		JUMPS_AVALIABLE = MAX_JUMPS

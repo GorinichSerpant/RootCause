@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/TestImage.png-d2ec030482ea5c06f6490b618093bcf0.stex"
+path="res://.import/RootCauseTilesFr.png-41d9ddef17291dbd5ee3e79d3c47a37f.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sight/TestImage.png"
-dest_files=[ "res://.import/TestImage.png-d2ec030482ea5c06f6490b618093bcf0.stex" ]
+source_file="res://World/RootCauseTilesFr.png"
+dest_files=[ "res://.import/RootCauseTilesFr.png-41d9ddef17291dbd5ee3e79d3c47a37f.stex" ]
 
 [params]
 
@@ -20,7 +20,7 @@ compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=false
+flags/filter=true
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
