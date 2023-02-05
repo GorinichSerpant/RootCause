@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/serious-dark-ambient-atmosphere-116115.mp3-f75564d9035426257dd905ff22cbe6c4.mp3str"
+
+[deps]
+
+source_file="res://Sounds/serious-dark-ambient-atmosphere-116115.mp3"
+dest_files=[ "res://.import/serious-dark-ambient-atmosphere-116115.mp3-f75564d9035426257dd905ff22cbe6c4.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

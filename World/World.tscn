@@ -1,4 +1,4 @@
-[gd_scene load_steps=43 format=2]
+[gd_scene load_steps=45 format=2]
 
 [ext_resource path="res://Character/Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://World/RootCauseTiles.png" type="Texture" id=2]
@@ -13,6 +13,8 @@
 [ext_resource path="res://World/Background/background-6.png" type="Texture" id=11]
 [ext_resource path="res://World/Background/background-5.png" type="Texture" id=12]
 [ext_resource path="res://World/spaceship 2.png" type="Texture" id=13]
+[ext_resource path="res://Sounds/serious-dark-ambient-atmosphere-116115.mp3" type="AudioStream" id=14]
+[ext_resource path="res://Sounds/scary-spooky-creepy-horror-ambient-dark-piano-cinematic-115052.mp3" type="AudioStream" id=15]
 
 [sub_resource type="ConvexPolygonShape2D" id=3]
 points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 16, 16, 16, 16 )
@@ -776,5 +778,14 @@ texture = "res://Assets/end_pic.png"
 [node name="Image" parent="EndTree" index="1"]
 position = Vector2( 0, 195 )
 scale = Vector2( 0.3, 0.3 )
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="EndTree"]
+stream = ExtResource( 15 )
+autoplay = true
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 14 )
+volume_db = -4.807
+autoplay = true
 
 [editable path="EndTree"]
