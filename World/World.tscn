@@ -1,4 +1,4 @@
-[gd_scene load_steps=37 format=2]
+[gd_scene load_steps=42 format=2]
 
 [ext_resource path="res://Character/Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://World/RootCauseTiles.png" type="Texture" id=2]
@@ -7,6 +7,11 @@
 [ext_resource path="res://World/pixil-frame-0 (9).png" type="Texture" id=5]
 [ext_resource path="res://Sight/pixil-frame-0 (1).png" type="Texture" id=6]
 [ext_resource path="res://Sight/Sight.tscn" type="PackedScene" id=7]
+[ext_resource path="res://World/Background/background-4.png" type="Texture" id=8]
+[ext_resource path="res://World/Background/background-2.png" type="Texture" id=9]
+[ext_resource path="res://World/Background/background-3.png" type="Texture" id=10]
+[ext_resource path="res://World/Background/background-6.png" type="Texture" id=11]
+[ext_resource path="res://World/Background/background-5.png" type="Texture" id=12]
 
 [sub_resource type="ConvexPolygonShape2D" id=3]
 points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 16, 16, 16, 16 )
@@ -646,6 +651,53 @@ points = PoolVector2Array( 0, 0, 16, 0, 0, 16, 0, 16 )
 
 [node name="World" type="Node2D"]
 
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2( 0.1, 1 )
+motion_mirroring = Vector2( 358, 0 )
+
+[node name="Background" type="Sprite" parent="ParallaxBackground/ParallaxLayer2"]
+position = Vector2( 162, 16 )
+scale = Vector2( 0.2, 0.2 )
+texture = ExtResource( 9 )
+
+[node name="ParallaxLayer3" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2( 0.2, 1 )
+motion_mirroring = Vector2( 358, 0 )
+
+[node name="Background" type="Sprite" parent="ParallaxBackground/ParallaxLayer3"]
+position = Vector2( 162, 16 )
+scale = Vector2( 0.2, 0.2 )
+texture = ExtResource( 8 )
+
+[node name="ParallaxLayer4" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2( 0.3, 1 )
+motion_mirroring = Vector2( 358, 0 )
+
+[node name="Background" type="Sprite" parent="ParallaxBackground/ParallaxLayer4"]
+position = Vector2( 162, 16 )
+scale = Vector2( 0.2, 0.2 )
+texture = ExtResource( 10 )
+
+[node name="ParallaxLayer5" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2( 0.4, 1 )
+motion_mirroring = Vector2( 358, 0 )
+
+[node name="Background" type="Sprite" parent="ParallaxBackground/ParallaxLayer5"]
+position = Vector2( 162, 16 )
+scale = Vector2( 0.2, 0.2 )
+texture = ExtResource( 11 )
+
+[node name="ParallaxLayer6" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2( 0.5, 1 )
+motion_mirroring = Vector2( 358, 0 )
+
+[node name="Background" type="Sprite" parent="ParallaxBackground/ParallaxLayer6"]
+position = Vector2( 162, 16 )
+scale = Vector2( 0.2, 0.2 )
+texture = ExtResource( 12 )
+
 [node name="Rock" type="Sprite" parent="."]
 position = Vector2( 89, 88 )
 texture = ExtResource( 4 )
@@ -667,7 +719,7 @@ __meta__ = {
 }
 
 [node name="Vine_Platform" type="Sprite" parent="."]
-position = Vector2( 762, -86 )
+position = Vector2( 765, -82 )
 scale = Vector2( 1.01, 1.01 )
 texture = ExtResource( 3 )
 
