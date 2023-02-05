@@ -1,10 +1,10 @@
 extends KinematicBody2D
 
 
-const GRAVITY = 100.0
-const WALK_SPEED = 200
-const JUMP_SPEED = 150
-const MAX_JUMPS = 2
+const GRAVITY = 50.0
+const WALK_SPEED = 100
+const JUMP_SPEED = 60
+const MAX_JUMPS = 1
 var JUMPS_AVALIABLE = MAX_JUMPS
 
 var velocity = Vector2()
