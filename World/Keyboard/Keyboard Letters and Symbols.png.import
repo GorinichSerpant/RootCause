@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/filled_endpic.png-e980d01c04b2cc870a79e658f93a4d9f.stex"
+path="res://.import/Keyboard Letters and Symbols.png-a1eb0508cea3df1f44ea8a46086d1282.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/filled_endpic.png"
-dest_files=[ "res://.import/filled_endpic.png-e980d01c04b2cc870a79e658f93a4d9f.stex" ]
+source_file="res://World/Keyboard/Keyboard Letters and Symbols.png"
+dest_files=[ "res://.import/Keyboard Letters and Symbols.png-a1eb0508cea3df1f44ea8a46086d1282.stex" ]
 
 [params]
 
@@ -20,7 +20,7 @@ compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=false
+flags/filter=true
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2

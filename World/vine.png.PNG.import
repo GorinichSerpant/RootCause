@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/filled_endpic.png-e980d01c04b2cc870a79e658f93a4d9f.stex"
+path="res://.import/vine.png.PNG-00d25461999550e317aa506536250822.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/filled_endpic.png"
-dest_files=[ "res://.import/filled_endpic.png-e980d01c04b2cc870a79e658f93a4d9f.stex" ]
+source_file="res://World/vine.png.PNG"
+dest_files=[ "res://.import/vine.png.PNG-00d25461999550e317aa506536250822.stex" ]
 
 [params]
 
@@ -20,7 +20,7 @@ compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=false
+flags/filter=true
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
